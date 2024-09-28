@@ -1,0 +1,32 @@
+{
+  "name": "sso-login",
+  "homepage": "https://imteyazraza123.github.io/sso-login",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "dev": "next dev -p 3005",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@module-federation/nextjs-mf": "^6.0.7",
+    "gh-pages": "^6.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^12.3.4",
+    "next-auth": "^4.24.7",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "webpack": "^5.76.3",
+    "webpack-merge": "^5.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.1.0",
+    "@types/react": "18.3.3",
+    "eslint": "9.8.0",
+    "eslint-config-next": "14.2.5",
+    "typescript": "5.5.4"
+  }
+}
